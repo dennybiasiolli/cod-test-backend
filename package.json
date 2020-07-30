@@ -1,0 +1,19 @@
+{
+  "name": "cod-test-backend",
+  "version": "0.0.1",
+  "description": "COD Test Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dennybiasiolli/cod-test-backend.git"
+  },
+  "author": "Denny Biasiolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennybiasiolli/cod-test-backend/issues"
+  },
+  "homepage": "https://github.com/dennybiasiolli/cod-test-backend#readme"
+}
