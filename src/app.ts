@@ -1,6 +1,7 @@
 import express from 'express';
 
 import indexRouter from './routes/index';
+import eventRouter from './routes/event';
 
 
 const app: express.Application = express();
@@ -12,6 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use('/', indexRouter);
+app.use('/events', eventRouter);
 
 app.listen(port, () => {
   // tslint:disable-next-line:no-console
