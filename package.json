@@ -2,8 +2,12 @@
   "name": "cod-test-backend",
   "version": "0.0.1",
   "description": "COD Test Backend",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
