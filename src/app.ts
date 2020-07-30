@@ -6,6 +6,11 @@ import indexRouter from './routes/index';
 const app: express.Application = express();
 const port = 3000;
 
+// for parsing application/json
+app.use(express.json())
+// for parsing application/x-www-form-urlencoded
+app.use(express.urlencoded({ extended: true }))
+
 app.use('/', indexRouter);
 
 app.listen(port, () => {
