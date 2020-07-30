@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dennybiasiolli/cod-test-backend/issues"
   },
-  "homepage": "https://github.com/dennybiasiolli/cod-test-backend#readme"
+  "homepage": "https://github.com/dennybiasiolli/cod-test-backend#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
