@@ -18,5 +18,9 @@
   "homepage": "https://github.com/dennybiasiolli/cod-test-backend#readme",
   "devDependencies": {
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1"
   }
 }
