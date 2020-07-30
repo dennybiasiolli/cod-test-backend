@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dennybiasiolli/cod-test-backend#readme",
   "devDependencies": {
+    "tslint": "^6.1.2",
     "typescript": "^3.9.7"
   },
   "dependencies": {
