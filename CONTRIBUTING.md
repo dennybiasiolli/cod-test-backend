@@ -5,8 +5,8 @@
 
 #### Setup project environment
 
-Made with Node.js 12.18.3.<br>
-Please follow tslint "recommended" rules when editing .ts files.
+Made with Node.js 12.18.4. Compatible with Node.js 12+<br>
+Please follow `tslint` "recommended" rules when editing .ts files.
 
 - Clone repo
 
